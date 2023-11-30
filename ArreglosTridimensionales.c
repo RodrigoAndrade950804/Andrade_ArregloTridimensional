@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
     int Matriz[n][m];
     // Imprime titulo de la matriz
     printf("Matriz");
-    // Se agrega estructuras
+    // Se agrega estructuras se pone -1 para llegar a una matriz antes
     printf("\n");
     for (int i = 0; i < z-1; i++)
     {        
@@ -28,6 +28,7 @@ int main(int argc, char const *argv[])
         printf("\nMatriz:" );
         printf("\n");
     }        
+    // Se agrega estructuras final para cambiar resultados a 1
     for (int i = 0; i < n; i++)
     {
         printf("\n");
